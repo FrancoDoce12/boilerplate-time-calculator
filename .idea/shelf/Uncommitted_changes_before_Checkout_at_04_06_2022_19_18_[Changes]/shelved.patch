@@ -1,0 +1,33 @@
+Index: time_calculator.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>def add_time(start, duration):\r\n\r\n\r\n\r\n\r\n\r\n    return new_time
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/time_calculator.py b/time_calculator.py
+--- a/time_calculator.py	(revision 17cd606c3d19e8f10c2448834e3aa50a7de81be7)
++++ b/time_calculator.py	(date 1654380928196)
+@@ -1,7 +1,8 @@
+-def add_time(start, duration):
++def add_time(start, duration, day:str = None):
+ 
+ 
+ 
+ 
+ 
+-    return new_time
+\ No newline at end of file
++    return new_time
++
+Index: days_of_the_week.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/days_of_the_week.py b/days_of_the_week.py
+new file mode 100644
+--- /dev/null	(date 1654381076193)
++++ b/days_of_the_week.py	(date 1654381076193)
+@@ -0,0 +1,1 @@
++import
